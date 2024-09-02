@@ -81,14 +81,14 @@ function GreenTable() {
           <tbody>               
             <tr className="border-2">
               <td></td>
-              <td className="px-6 xl:px-12 py-4 border-2"><div className="flex flex-col"><p className="whitespace-nowrap">Gold Sponsor</p><p>$300,000</p></div></td>
-              <td className="px-6 xl:px-12 py-4 border-2"><div className="flex flex-col"><p className="whitespace-nowrap">Silver Sponsor</p><p>$200,000</p></div></td>
-              <td className="px-6 xl:px-12 py-4 border-2"><div className="flex flex-col"><p className="whitespace-nowrap">Bronze Sponsor</p><p>$100,000</p></div></td>
+              <td className="px-6 xl:px-12 py-4 border-2"><div className="flex flex-col"><p className="whitespace-nowrap">Gold Sponsor</p><p>$100,000</p></div></td>
+              <td className="px-6 xl:px-12 py-4 border-2"><div className="flex flex-col"><p className="whitespace-nowrap">Silver Sponsor</p><p>$50,000</p></div></td>
+              <td className="px-6 xl:px-12 py-4 border-2"><div className="flex flex-col"><p className="whitespace-nowrap">Bronze Sponsor</p><p>$25,000</p></div></td>
             </tr>
             <GreenTableRow td="Logo placement on this website" td1="true" td2="true"/>
             <GreenTableRow td="Appreciation in press releases" td1="true" td2="true"/>
             <GreenTableRow td="Media exposure through sports and arts publications" td1="true" td2="true"/>
-            <GreenTableRow td="New exciting content to social media channels" td1="true" td2="true"/>
+            <GreenTableRow td="New exciting content for your social media channels" td1="true" td2="true"/>
             <GreenTableRow td={`Announce winners at the National Press Club on  ${formatDate("winnerAnnounced", "MMMM do")}`} td1="true" td2=""/>
             <GreenTableRow td={`The gold, silver and bronze visit the corporate HQ in late ${formatDate("winnerAnnounced", "MMMM")} to collaboratively paint a mural and present it.`} td1="" td2=""/>
           </tbody>            

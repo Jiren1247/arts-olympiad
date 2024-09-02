@@ -32,7 +32,7 @@ export const VisionCards = () => {
         <VisionCard
           icon="/sponsor/GreenLogo.png"
           heading="Employee Engagement"
-          description="Bring the Paris Olympics to your executive and employees through #MyFavoriteSport."
+          description="Your employees can vote and their children can upload their art."
           color="#E4F9EA"
           texture={
             <Image src="/svgs/blobs/beginning-blob.svg" className="w-[60%] absolute bottom-0 left-0 opacity-40 select-none pointer-events-none" alt="" width={0} height={0}/>
@@ -41,7 +41,7 @@ export const VisionCards = () => {
         <VisionCard
           icon="/sponsor/BlueLogo.png"
           heading="Viral Expansion"
-          description="Scale up your global emotional branding strategy through #MyFavoriteSport, which can go viral, effectively engaging millions worldwide."
+          description="Scale up your global emotional branding strategy with the #MyFavoriteSport campaign."
 
           color="#CCEBFF"
           texture={
